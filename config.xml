@@ -2,8 +2,8 @@
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "com.idcapp.basicjs"
-    versionCode = "108" 
-    version     = "1.0.8" >
+    versionCode = "109" 
+    version     = "1.0.9" >
 	
 	<!--just android ios-->
 	
@@ -19,7 +19,7 @@
 	
     <!-- versionCode is optional and Android only DM iFrame v3 -->
 
-    <name>IDCappJS.108</name>
+    <name>IDCappJS.109</name>
 	
 	<!--idcapp v01-->
 
