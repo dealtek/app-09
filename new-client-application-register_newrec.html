@@ -48,7 +48,10 @@
 <br>
  -->
 
-<div class="widebox1"><div class="dash1"><a rel="external" class="buttonlink2" href="new-client-application-register1.html">go back</a></div> </div>
+<div class="widebox1"><div class="dash1"><a rel="external" class="buttonlink2" href="new-client-application-register1.html">go back</a></div> 
+
+
+</div>
 
 
 <!--
@@ -63,6 +66,20 @@
 <strong>
 
 <div class="print_data_22"  id='response'></div>
+<br><br>
+
+
+<div class="print_data_22"  id='response2'></div>
+<br>
+
+
+new CLID is <div class="print_data_22"  id='Client_ID'></div>
+<br>
+
+
+
+<div class="widebox1"><div class="dash1"><a rel="external" class="buttonlink2" href="zpay-07.html">CONTINUE PAY 07 YO</a></div> </div>
+
 
 </strong>
 <script>
@@ -121,6 +138,14 @@ xxx: localStorage.getItem("xxx"),
 			
 			// show the response
 			$('#response').html(data);
+			
+			$('#response2').html(data);
+			
+			
+			localStorage.setItem("Client_ID", data);
+			document.getElementById('Client_ID').textContent = localStorage.getItem("Client_ID");
+			
+
 			
 		}).fail(function() {
 		
